@@ -30,7 +30,8 @@ elif port_number == 80 and data_size > 100:
 elif port_number == 443:
     print('Risk Assessment: LOW RISK: Secure encrypted transfer detected.')
 elif port_number == 3389:
-    print('Risk Assessment: MEDIUM RISK: Large unencrypted data transfer detected.')
+    print('Risk Assessment: HIGH RISK: Potential unauthorized remote access detected!')
+    
 else:
     print('Risk Assessment: UNKNOWN: Unrecognized traffic pattern.')
 
